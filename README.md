@@ -81,30 +81,30 @@ npm run dev
 
 ### 🎯 Learning Outcomes
 
-This project was built purely for React skill enhancement, covering:
+- This project was built purely for React skill enhancement, covering:
 
-Advanced Component Architecture
+- Advanced Component Architecture
 
-State management without Redux
+- State management without Redux
 
-Handling complex data structures in a clean, scalable way
+- Handling complex data structures in a clean, scalable way
 
-Responsive design with Tailwind CSS
+- Responsive design with Tailwind CSS
 
-Working with Radix UI for accessible components
+- **Working with Radix UI for accessible components
 
-Debugging and connecting multiple components efficiently
+- Debugging and connecting multiple components efficiently
 
 ### 🚧 Challenges Faced
 
-Coordinating state between independent components
+- Coordinating state between independent components
 
-Mapping data structures dynamically to UI
+- Mapping data structures dynamically to UI
 
-Implementing responsive layouts with hover effects
+- Implementing responsive layouts with hover effects
 
-Working with Radix Select and icon indicators
+- Working with Radix Select and icon indicators
 
-Managing “status colors” and legends dynamically
+- Managing “status colors” and legends dynamically
 
-<div align="center"> <p>Developed with passion and care by <b>Artin Karimi</b></p> <a href="https://github.com/artinkarimi-dev"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" /> </a> </div> ```
+<div align="center"> <p>Developed with passion and care by <b>Artin Karimi</b></p> <a href="https://github.com/artinkarimi-dev"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" /> </a> </div>
