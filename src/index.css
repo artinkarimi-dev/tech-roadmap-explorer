@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Global body styles with a fixed gradient background */
+body {
+    margin: 0;
+
+    /* Base background color */
+    background: #000000;
+
+    /* Smooth vertical gradient for visual depth */
+    background-image: linear-gradient(180deg,
+            #000000 0%,
+            #000000 18%,
+            #060811 40%,
+            #0b152b 62%,
+            #0d1931 82%,
+            #102246 100%);
+
+    /* Keep background fixed during scroll for parallax effect */
+    background-attachment: fixed;
+
+    /* Default text color for readability */
+    color: white;
+}
