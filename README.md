@@ -4,13 +4,10 @@
 
 **Your interactive, responsive, and beautifully styled roadmap for mastering key development domains.**
 
-[![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radix-ui&logoColor=white)](https://www.radix-ui.com/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-
-<!-- Suggestion: Add a screenshot of your app here for better engagement -->
-<!-- ![App Screenshot](./public/screenshot.png) -->
 
 </div>
 
@@ -67,9 +64,9 @@ git clone https://github.com/artinkarimi-dev/tech-roadmap-explorer.git
 ```
 ### 2. Install Dependencies
 ```bash
+cd tech-roadmap-explorer 
 npm install
 ```
-
 ### 3. Launch Development Server
 ```bash
 npm run dev
