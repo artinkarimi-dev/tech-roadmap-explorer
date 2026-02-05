@@ -4,10 +4,13 @@
 
 **Your interactive, responsive, and beautifully styled roadmap for mastering key development domains.**
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radix-ui&logoColor=white)](https://www.radix-ui.com/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+
+<!-- Suggestion: Add a screenshot of your app here for better engagement -->
+<!-- ![App Screenshot](./public/screenshot.png) -->
 
 </div>
 
@@ -15,26 +18,25 @@
 
 ## 📖 Overview
 
-**Tech Roadmap Explorer** is a highly interactive roadmap application that helps learners navigate through key domains in software development: **Frontend, Backend, Security, AI, and DevOps**.
+**Tech Roadmap Explorer** is a concise, interactive tool designed to help learners navigate key software development domains: **Frontend, Backend, Security, AI, and DevOps**.
 
-Users can **select a domain** and instantly see a **step-by-step roadmap**: what to learn first, what comes next, and the difficulty level for each skill:
+Users can **select a domain** and instantly view a **step-by-step roadmap**, clarifying what to learn first with visual difficulty indicators:
 
-- ✅ **Green** = Simple
-- ⚠️ **Yellow** = Moderate
-- ❌ **Red** = Difficult
+- ✅ **Green:** Simple
+- ⚠️ **Yellow:** Moderate
+- ❌ **Red:** Difficult
 
-> This project is fully **responsive**, uses **modern styling** via Tailwind CSS, and features **real-world roadmap data** from credible sources.
+> This project focuses on **Component Architecture** and **State Management**, featuring a fully responsive design built with Tailwind CSS and Radix UI.
 
 ---
 
 ## ✨ Key Features
 
-- **Dynamic Domain Selection:** Choose your domain and instantly populate a roadmap table.
-- **Difficulty Indicators:** Clear visual cues for each skill's complexity.
-- **Component-Based Architecture:** All UI elements (Title, Selector, Table, Navigation) are modular and reusable.
-- **Responsive Design:** Fully mobile-friendly, with hover effects and smooth transitions.
-- **Realistic Roadmap:** Skills and learning order based on authentic developer roadmaps.
-- **Accessible UI:** Built using Radix UI components for keyboard navigation and screen reader compatibility.
+- **Dynamic Domain Selection:** Instantly populates the roadmap table based on user choice.
+- **Visual Difficulty Indicators:** Clear color-coded cues for skill complexity.
+- **Component-Based Architecture:** Modular design (Title, Selector, Table, Navigation).
+- **Responsive Design:** Mobile-friendly layout with smooth hover effects.
+- **Accessible UI:** Powered by Radix UI for better keyboard navigation and screen reader support.
 
 ---
 
@@ -50,61 +52,54 @@ Users can **select a domain** and instantly see a **step-by-step roadmap**: what
 
 ### 💡 Technical Highlights
 
-1. **State Management:** Centralized domain state via React Hooks, lifting state up to synchronize multiple components.
-2. **Reusable Components:** Selector, Table, Title, and Navigation designed for modularity and reusability.
-3. **Dynamic Rendering:** Roadmap table updates automatically based on selected domain.
-4. **Visual Feedback:** Status colors mapped programmatically (Simple = green, Moderate = yellow, Difficult = red).
-5. **Responsive & Polished UI:** Gradient backgrounds, hover effects, and smooth transitions for a modern developer experience.
+1. **State Management:** Implementation of React Hooks to lift state up and synchronize components without external libraries like Redux.
+2. **Reusable Components:** Clean separation of concerns for maintainability.
+3. **Dynamic Rendering:** Data-driven UI updates based on authentic roadmap paths.
+4. **Conditional Styling:** Programmatic mapping of status colors (Green/Yellow/Red).
 
 ---
 
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-
 ```bash
-git clone https://github.com/YOUR_USERNAME/tech-roadmap-explorer.git
+git clone https://github.com/artinkarimi-dev/tech-roadmap-explorer.git
 ```
-
 ### 2. Install Dependencies
-
 ```bash
 npm install
 ```
 
 ### 3. Launch Development Server
-
 ```bash
 npm run dev
-
 ```
 
-### 🎯 Learning Outcomes
+---
 
-- This project was built purely for React skill enhancement, covering:
+## 🎯 Learning Outcomes
 
-- Advanced Component Architecture
+This project was built specifically to enhance React proficiency, covering:
 
-- State management without Redux
+- **Advanced Component Architecture:** Structuring apps for scalability.
+- **State Management:** Handling data flow efficiently without Redux.
+- **Data Structures:** Mapping complex data arrays to clean UI elements.
+- **Responsive Styling:** Utilizing Tailwind CSS for modern layouts.
+- **Accessibility (a11y):** Working with Radix UI primitives.
+- **Debugging:** Connecting independent components effectively.
 
-- Handling complex data structures in a clean, scalable way
+### 🚧 Challenges Faced & Overcome
 
-- Responsive design with Tailwind CSS
+- Coordinating state between sibling components using parent state.
+- Dynamically mapping nested data structures to the table UI.
+- Implementing responsive layouts that look good on all devices.
+- Customizing Radix Select components to match the Tailwind design system.
 
-- **Working with Radix UI for accessible components
+<br />
 
-- Debugging and connecting multiple components efficiently
-
-### 🚧 Challenges Faced
-
-- Coordinating state between independent components
-
-- Mapping data structures dynamically to UI
-
-- Implementing responsive layouts with hover effects
-
-- Working with Radix Select and icon indicators
-
-- Managing “status colors” and legends dynamically
-
-<div align="center"> <p>Developed with passion and care by <b>Artin Karimi</b></p> <a href="https://github.com/artinkarimi-dev"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" /> </a> </div>
+<div align="center">
+  <p>Developed with passion by <b>Artin Karimi</b></p>
+  <a href="https://github.com/artinkarimi-dev">
+<img src="https://img.shields.io/badge/GitHub-Profile-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+  </a>
+</div>
